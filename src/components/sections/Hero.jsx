@@ -261,7 +261,7 @@ const Hero = () => {
                         View Resume
                     </ResumeButton>
 
-                    <ResumeButton href={Bio.resume} target="_blank">
+                    <ResumeButton href={Bio.certificates} target="_blank">
                         Certificates
                     </ResumeButton>
                     </Button>
