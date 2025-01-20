@@ -65,8 +65,7 @@ const Projects = () => {
             marginBottom: "40px",
           }}
         >
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+           Here are some of my projects. This shows my journey from "Fundamentals" ➡️ "Frameworks".
         </Desc>
 
         <CardContainer>
