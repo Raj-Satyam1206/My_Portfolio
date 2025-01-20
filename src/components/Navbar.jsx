@@ -3,6 +3,7 @@ import styled, { useTheme } from 'styled-components';
 import {Link as LinkR} from "react-router-dom"; 
 import {Bio} from "../data/constants";
 import { MenuRounded } from "@mui/icons-material";
+import PodcastsIcon from '@mui/icons-material/Podcasts';
 
 
 const Nav = styled.div`
@@ -31,12 +32,17 @@ const NavbarContainer = styled.div`
 
 
 const NavLogo = styled(LinkR)`
-    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
     padding: 0 6px;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 800;
+    font-size: 20px;
     text-decoration: none;
-    color: inherit;
+    color: #007BFF;
+    &:hover {
+        color: #0056b3; // Slightly darker blue for hover effect
+    }
 `;
 
 const NavItems = styled.ul`
@@ -76,7 +82,7 @@ const ButtonContainer = styled.div`
     }
 `;
 
-const GithubButton = styled.div`
+const GithubButton = styled.a`
     border: 1px solid ${({ theme }) => theme.primary};
     color: ${({ theme }) => theme.primary};
     justify-content: center;
@@ -139,8 +145,12 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to="/"> 
-            TO BE SET!!!
+        <NavLogo 
+            to="/"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        > 
+            <PodcastsIcon />
+                Portfolio
         </NavLogo>
 
         <MobileIcon onClick={() => setIsOpen(!isOpen)}>
@@ -176,7 +186,7 @@ const Navbar = () => {
 
                     <GithubButton
                     href={Bio.github}
-                    target="_Blank"
+                    target="_blank"
                     style={{
                         background: theme.primary,
                         color: theme.text_primary,
