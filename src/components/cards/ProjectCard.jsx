@@ -34,6 +34,22 @@ const Tags = styled.div`
   flex-wrap: wrap;
   gap: 8px;
   margin-top: 4px;
+  margin-bottom: 2px;
+`;
+const Tag = styled.div`
+  background-color: ${({ theme }) => theme.primary + 30 };
+  color: ${({ theme }) => theme.white || "#fff"};
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 20px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  
+  &:hover {
+    background-color: ${({ theme }) => theme.primaryHover || "#0056b3"};
+    transform: scale(1.05);
+  }
 `;
 const Details = styled.div`
   width: 100%;
@@ -84,8 +100,12 @@ const Button = styled.a`
 const ProjectCard = ({ project }) => {
   return (
     <Card>
-      <Image src={project.image} />
-      <Tags></Tags>
+      <Image src={project?.image} />
+      <Tags>
+      {project?.tags?.map((tag, index) => (
+        <Tag key={index}>{tag}</Tag>
+      ))}
+      </Tags>
       <Details>
         <Title>{project.title}</Title>
         <Date>{project.date}</Date>
