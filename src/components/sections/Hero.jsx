@@ -7,6 +7,7 @@ import HeroBgAnimation from "../HeroBgAnimation";
 import {Tilt} from "react-tilt";
 import {motion} from "framer-motion";
 import {headContainerAnimation, headContentAnimation, headTextAnimation} from "../../utils/motion";
+import StarCanvas from "../canvas/Stars";
 
 
 
@@ -128,6 +129,10 @@ const SubTitle = styled.div`
   }
 `;
 
+
+const Button = styled.div`
+display: flex;
+`;
 const ResumeButton = styled.a`
   -webkit-appearance: button;
   -moz-appearance: button;
@@ -138,6 +143,7 @@ const ResumeButton = styled.a`
   max-width: 300px;
   text-align: center;
   padding: 16px 0;
+  margin: 10px;
 
   background: hsla(271, 100%, 50%, 1);
   background: linear-gradient(
@@ -215,10 +221,11 @@ const HeroBg = styled.div`
 
 const Hero = () => {
   return (
-    <div id="about">
+    <div id="About">
         <HeroContainer>
 
             <HeroBg>
+                <StarCanvas />
                 <HeroBgAnimation />
             </HeroBg>
 
@@ -249,7 +256,15 @@ const Hero = () => {
                         <SubTitle>{Bio.description}</SubTitle>
                     </motion.div>
                     
-                    <ResumeButton>Check Resume</ResumeButton>
+                    <Button>
+                    <ResumeButton href={Bio.resume} target="_blank">
+                        View Resume
+                    </ResumeButton>
+
+                    <ResumeButton href={Bio.resume} target="_blank">
+                        Certificates
+                    </ResumeButton>
+                    </Button>
 
                 </HeroLeftContainer>
 
