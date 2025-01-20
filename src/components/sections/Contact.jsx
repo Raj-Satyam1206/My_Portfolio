@@ -134,7 +134,7 @@ const Contact = () => {
             marginBottom: "40px",
           }}
         >
-          Feel free to reach out to me for any questions or opportunities!
+          Feel free to reach out to me for any Questions or Opportunities!
         </Desc>
         <ContactForm onSubmit={handelSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
