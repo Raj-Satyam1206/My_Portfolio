@@ -20,7 +20,24 @@ export const Bio = {
 
 export const skills = [
   {
-    title: "Tech Stack",
+    title: "Languages",
+    skills: [
+      {
+        name: "C",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaVEbySPpL6thTKRzdESt5v75g5Ie4J_G69w&s",
+      },
+      {
+        name: "C++",
+        image: "https://www.shutterstock.com/image-illustration/c-code-on-dark-background-600nw-1896170293.jpg",
+      },
+      {
+        name: "JavaScript",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+    ],
+  },
+  {
+    title: "Technologies",
     skills: [
       {
         name: "React Js",
@@ -33,18 +50,13 @@ export const skills = [
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
       {
-        name: "HTML",
+        name: "HTML5",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
       {
         name: "CSS",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-      },
-      {
-        name: "JavaScript",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
       {
         name: "Bootstrap",
@@ -67,6 +79,35 @@ export const skills = [
       {
         name: "PHP",
         image: "https://w7.pngwing.com/pngs/185/655/png-transparent-logo-php-computer-icons-symbol-miscellaneous-emblem-text.png",
+      },
+    ],
+  },
+  {
+    title: "Fundamentals",
+    skills: [
+      {
+        name: "Data Structures",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvLbH6_LOVKKoFEI1T06alVq9UDilSVSfhUw&s",
+      },
+      {
+        name: "Algorithms",
+        image:
+          "https://media.geeksforgeeks.org/wp-content/cdn-uploads/Competitive-Programming-1.jpg",
+      },
+      {
+        name: "OOPS",
+        image:
+          "https://media.istockphoto.com/id/147480805/photo/oop-object-oriented-programming.jpg?s=612x612&w=0&k=20&c=r47EPdaimqTUmRu4Pne6jJyi95NPWDJU3IsPW1sAPec=",
+      },
+      {
+        name: "DBMS",
+        image:
+          "https://media.licdn.com/dms/image/D4D12AQE6EaYKCSHqTg/article-cover_image-shrink_720_1280/0/1669293538387?e=2147483647&v=beta&t=MRhzPqlW7bTohvfNgPjo5_WA9_qTM1j9CmGhXC_Hsfk",
+      },
+      {
+        name: "Operating Systems",
+        image:
+          "https://www.shutterstock.com/image-photo/business-technology-internet-network-concept-260nw-559459693.jpg",
       },
     ],
   },
@@ -176,7 +217,7 @@ export const education = [
     date: "Feb 2012 - Mar 2017",
     grade: "93.6 %",
     desc: "I completed my Secondary Education at Goethals Memorial School, Kurseong, Darjeeling. This boarding school provided a holistic learning environment, fostering discipline, focus, and resilience. It played a pivotal role in shaping my mindset, instilling a strong work ethic, and teaching me the value of teamwork and determination to overcome challenges",
-    degree: "ICSC(X)",
+    degree: "ICSE(X)",
   },
 ];
 
@@ -188,7 +229,7 @@ export const projects = [
     description:
       "FlixGenie is an advanced movie discovery app powered by React, TMDB, and OpenAI's GPT. It features a modern UI with TailwindCSS, Firebase authentication for secure sign-ups and logins, and Redux for state management. Users can explore trending movies, watch trailers, and get personalized movie suggestions through GPT. The app supports multi-language searches, responsive design, and seamless navigation. With optimized performance and robust integrations, FlixGenie offers an engaging and smarter movie streaming experience tailored to every user.",
     image:
-      "https://drive.google.com/file/d/1fd2S308TIlkW-aTxGY2sV8y0Ud1yolSA/view?usp=sharing",
+      "https://raw.githubusercontent.com/Raj-Satyam1206/FlixGenie/refs/heads/main/assets/Flix%20_Genie.jpg", 
     tags: [
       "React Js",
       "Redux",
@@ -239,6 +280,12 @@ export const projects = [
       "TextUtils is a versatile text manipulation tool offering features like converting text to lowercase, uppercase, removing extra spaces, clearing text, and an informative About section. Through this project, I deepened my understanding of state management and efficient props sharing in React, enabling dynamic and interactive user experiences. TextUtils showcases my ability to create functional and user-friendly web applications while emphasizing clean design and practical utility.",
     image:
       "https://drive.google.com/file/d/13qahiJijys73TaxDX1mNRG58ftQ81TlG/view?usp=sharing",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React.js",
+    ],
     github: "https://github.com/rishavchanda/Project-Management-App",
     webapp: "https://vexa-app.netlify.app/",
   },
@@ -262,6 +309,10 @@ export const projects = [
       "The Certificate Gallery project showcases my journey of learning. It contains my certificates which I have got till now in my short tech career. This project allowed me to explore various CSS properties, including gradients, box shadows, and hover effects, to create visually appealing designs.  This project reflects my enthusiasm for mastering web development basics and building a strong foundation in front-end design.",
     image:
       "https://drive.google.com/file/d/1_uzivsaABHcJowwN300dTTnQaEMb1BqM/view?usp=sharing",
+    tags: [
+      "HTML",
+      "CSS",
+    ],  
     github: "https://github.com/rishavchanda/Buckoid-Android-App",
     webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
   },
