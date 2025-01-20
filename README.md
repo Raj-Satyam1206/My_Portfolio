@@ -90,16 +90,6 @@ This is a visually stunning and interactive portfolio built with **React.js**, *
 5. Open the app in your browser at:
    [http://localhost:3000](http://localhost:3000)
 
-## 🚀 Deployment
-
-1. Build the project for production:
-
-   ```bash
-   npm run build
-   ```
-
-2. Deploy the contents of the `build` folder to your preferred hosting service (e.g., Netlify, Vercel).
-
 ## 🙌 Acknowledgments
 
 - **React.js** for its powerful framework.
