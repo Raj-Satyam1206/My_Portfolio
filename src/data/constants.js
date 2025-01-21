@@ -239,8 +239,8 @@ export const projects = [
       "FireBase",
       "TMDB API",
     ],
-    github: "https://github.com/rishavchanda/DecisionHub",
-    webapp: "https://decisionhub.netlify.app/",
+    github: "https://github.com/Raj-Satyam1206/FlixGenie",
+    webapp: "https://flix-genie.netlify.app/",
   },
   {
     id: 1,
@@ -249,7 +249,7 @@ export const projects = [
     description:
       "CryptoBucks is a cryptocurrency tracking application built with React.js. It provides real-time data for trending cryptocurrencies, detailed coin information, and market trends. Users can search, filter, and save their favorite cryptocurrencies locally. The app features intuitive components like charts, tables, and pagination for seamless navigation. Powered by the CoinGecko API, CryptoBucks offers a comprehensive view of the crypto market. Future updates will include user authentication, advanced data visualization, and multi-language support for a personalized experience.",
     image:
-      "https://drive.google.com/file/d/1EyBLKR0Squ51tIYDokTmU4XeMsBhPltE/view?usp=sharing",
+      "https://raw.githubusercontent.com/Raj-Satyam1206/CryptoBucks/refs/heads/main/assets/CryptoBucks.jpg",
     tags: [
       "React Js",
       "Context API",
@@ -257,8 +257,8 @@ export const projects = [
       "Tailwind CSS",
       "Local Storage",
     ],
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify-management.netlify.app/",
+    github: "https://github.com/Raj-Satyam1206/CryptoBucks",
+    webapp: "https://cryptocurrency-bucks.netlify.app/",
   },
   {
     id: 2,
@@ -279,15 +279,15 @@ export const projects = [
     description:
       "TextUtils is a versatile text manipulation tool offering features like converting text to lowercase, uppercase, removing extra spaces, clearing text, and an informative About section. Through this project, I deepened my understanding of state management and efficient props sharing in React, enabling dynamic and interactive user experiences. TextUtils showcases my ability to create functional and user-friendly web applications while emphasizing clean design and practical utility.",
     image:
-      "https://drive.google.com/file/d/13qahiJijys73TaxDX1mNRG58ftQ81TlG/view?usp=sharing",
+      "https://raw.githubusercontent.com/Raj-Satyam1206/TextUtils/refs/heads/main/assets/TextUtils.jpg",
     tags: [
       "HTML",
       "CSS",
       "JavaScript",
       "React.js",
     ],
-    github: "https://github.com/rishavchanda/Project-Management-App",
-    webapp: "https://vexa-app.netlify.app/",
+    github: "https://github.com/Raj-Satyam1206/TextUtils",
+    webapp: "https://textutils-beta.netlify.app/",
   },
   {
     id: 4,
@@ -296,10 +296,10 @@ export const projects = [
     description:
       "The GAANA Music Player project showcases my skills in HTML, CSS, and JavaScript, where I built a user-friendly music player featuring a curated list of songs. Through this project, I gained a strong understanding of JavaScript fundamentals. Additionally, I implemented backend functionality using PHP for sign-up and sign-in authentication, leveraging XAMPP to process PHP files. This project reflects my ability to integrate front-end and back-end technologies to create a seamless user experience.",
     image:
-      "https://drive.google.com/file/d/1fOqSrE1avOfjOs87gvaqr7ZKcg9EQh1m/view?usp=sharing",
+      "https://raw.githubusercontent.com/Raj-Satyam1206/GAANA/refs/heads/main/assets/GAANA.png",
     tags: ["HTML", "CSS", "JavaScript", "PHP", "Xampp",],
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
+    github: "https://github.com/Raj-Satyam1206/GAANA",
+    webapp: "https://gaana-musicplayer.netlify.app/",
   },
   {
     id: 5,
@@ -308,12 +308,12 @@ export const projects = [
     description:
       "The Certificate Gallery project showcases my journey of learning. It contains my certificates which I have got till now in my short tech career. This project allowed me to explore various CSS properties, including gradients, box shadows, and hover effects, to create visually appealing designs.  This project reflects my enthusiasm for mastering web development basics and building a strong foundation in front-end design.",
     image:
-      "https://drive.google.com/file/d/1_uzivsaABHcJowwN300dTTnQaEMb1BqM/view?usp=sharing",
+      "https://raw.githubusercontent.com/Raj-Satyam1206/Certificates-Gallery/refs/heads/main/assets/CertificateGallery.png",
     tags: [
       "HTML",
       "CSS",
     ],  
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+    github: "https://github.com/Raj-Satyam1206/Certificates-Gallery",
+    webapp: "https://satyam-certificates-gallery.netlify.app/",
   },
 ];
