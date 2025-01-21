@@ -270,7 +270,7 @@ export const projects = [
       "https://raw.githubusercontent.com/Raj-Satyam1206/NewsVista/refs/heads/main/assets/NewsMonkey.png",
     tags: ["React Js", "State Management", "Tailwind CSS", "News API"],
     github: "https://github.com/Raj-Satyam1206/NewsVista",
-    webapp: "https://podstream.netlify.app/",
+    webapp: "https://newsvista.netlify.app/",
   },
   {
     id: 3,
