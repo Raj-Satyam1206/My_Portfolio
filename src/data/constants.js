@@ -262,7 +262,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "NewsMonkey",
+    title: "NewsVista",
     date: "Jan 2024 - Feb 2024",
     description:
       "NewsMonkey is a real-time news application that fetches the latest updates from the News API. It allows users to explore news articles across various categories, including Science, Entertainment, Lifestyle, Health, Technology, and more. With a clean and intuitive interface, NewsMonkey ensures users stay informed with the most relevant and up-to-date information. The project demonstrates my skills in API integration, dynamic content rendering, and building user-friendly web applications tailored to deliver a seamless browsing experience.",
