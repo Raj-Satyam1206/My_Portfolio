@@ -197,7 +197,7 @@ export const education = [
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNAwxjLNO1BWo6LjnqC2gBZTrkWWDrfyfQ7A&s",
     school: "JSS Academy of Technical Education, Bangalore",
     date: "Oct 2020 - May 2024",
-    grade: "8.25 CGPA",
+    grade: "8.18 CGPA",
     desc: "I have completed my Bachelor's degree in Computer Science and Engineering at JSSATE, Bangalore. During my studies, I gained a solid foundation in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks. I actively participated in sports activities and extracurricular activities, including being a member of the NSS, where I contributed to various social initiatives. My academic journey has equipped me with both technical and teamwork skills, preparing me for real-world challenges.",
     degree: "Bachelor of Engineering - BE, Computer Science and Engineering",
   },
