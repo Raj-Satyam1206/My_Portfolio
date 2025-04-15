@@ -10,7 +10,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Raj-Satyam1206",
-  resume: "https://drive.google.com/file/d/1eQHkBgPK0yMFkAcgDGScfeYOVDRzXfQk/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1PdvQIDTkttlq3UkHkPhCGkOrcWmEuEL3/view?usp=drive_link",
   certificates : "https://satyam-certificates-gallery.netlify.app/",
   linkedin: "https://www.linkedin.com/in/satyamraj1206/",
   twitter: "https://x.com/i_am_raj1206",
