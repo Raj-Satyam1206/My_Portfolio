@@ -12,10 +12,7 @@ export const Bio = {
   github: "https://github.com/Raj-Satyam1206",
   resume: "https://drive.google.com/file/d/1PdvQIDTkttlq3UkHkPhCGkOrcWmEuEL3/view?usp=drive_link",
   certificates : "https://satyam-certificates-gallery.netlify.app/",
-  linkedin: "https://www.linkedin.com/in/satyamraj1206/",
-  twitter: "https://x.com/i_am_raj1206",
-  insta: "https://www.instagram.com/i_amsatyamraj/",
-  facebook: "https://www.facebook.com/SatyamRaj/",
+  linkedin: "https://www.linkedin.com/in/satyamraj1206/"
 };
 
 export const skills = [
@@ -33,6 +30,10 @@ export const skills = [
       {
         name: "JavaScript",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+      {
+        name: "SQL",
+        image: "https://png.pngtree.com/thumb_back/fh260/background/20220812/pngtree-iconic-logo-design-for-uiux-app-with-sql-database-theme-photo-image_25169742.jpg",
       },
     ],
   },
