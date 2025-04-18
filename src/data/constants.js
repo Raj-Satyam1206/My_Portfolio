@@ -2,6 +2,7 @@ export const Bio = {
   name: "Satyam Raj", 
   roles: [
     "Front-End Web Developer",
+    "UI Enthusiast",
     "React.js Developer",
     "JavaScript Enthusiast",
     "Problem Solver",
@@ -10,7 +11,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Raj-Satyam1206",
-  resume: "https://drive.google.com/file/d/1PdvQIDTkttlq3UkHkPhCGkOrcWmEuEL3/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1Ih2B_rLcyZjXcHnSZwADW4-hrU9jrxaW/view?usp=sharing",
   certificates : "https://satyam-certificates-gallery.netlify.app/",
   linkedin: "https://www.linkedin.com/in/satyamraj1206/"
 };
@@ -113,7 +114,7 @@ export const skills = [
     ],
   },
   {
-    title: "Others",
+    title: "Tools",
     skills: [
       {
         name: "Git",
@@ -129,6 +130,21 @@ export const skills = [
         name: "Netlify",
         image:
           "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+      },
+      {
+        name: "Webpack",
+        image:
+          "https://raw.githubusercontent.com/webpack/media/master/logo/logo-on-dark-bg.png",
+      },
+      {
+        name: "Babel",
+        image:
+          "https://miro.medium.com/v2/resize:fit:768/0*fiV8RGBHTZGsSFzN.png",
+      },
+      {
+        name: "NPM",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1200px-Npm-logo.svg.png",
       },
       {
         name: "VS Code",
