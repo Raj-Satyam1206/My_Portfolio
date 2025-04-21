@@ -11,7 +11,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Raj-Satyam1206",
-  resume: "https://drive.google.com/file/d/1Ih2B_rLcyZjXcHnSZwADW4-hrU9jrxaW/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1aW5GnDZtTRMqe4JI7z_ua2UJPamwFiBE/view?usp=sharing",
   certificates : "https://satyam-certificates-gallery.netlify.app/",
   linkedin: "https://www.linkedin.com/in/satyamraj1206/"
 };
@@ -31,6 +31,10 @@ export const skills = [
       {
         name: "JavaScript",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+      },
+            {
+        name: "TypeScript",
+        image: "https://blog.theodo.com/_astro/ts_logo.BstCNrTU_1Dbxpr.webp",
       },
       {
         name: "SQL",
